@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.user-container div {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 250px;
+    width: 100%;
+    text-align: center;
+}
+
+.user-container img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.user-container h3 {
+    margin: 5px 0;
+    font-size: 1.2em;
+    white-space: nowrap;
+}
+
+.user-container h4 {
+    margin: 5px 0;
+    color: #555;
+}
+
+.user-container p {
+    margin: 10px 0;
+    color: #777;
+}
+
+.user-container .delete {
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.user-container .delete:hover {
+    background-color: #ff1a1a;
+}
